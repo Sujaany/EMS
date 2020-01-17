@@ -8,7 +8,7 @@
   pointer-events: none;
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,12 +17,34 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+.containerbg{
+  background-color: #000000;
+  min-height: 100vh; 
+  align-items: center;
+  /* justify-content: center;  */
 }
 
+.topbar{
+  background-color: #000000;
+}
+
+.sidebar{
+  background-color: #2c2b2b;
+  }
 .App-link {
   color: #61dafb;
 }
 
+.tablebg{
+  background-color: #000000;
+  color: white;
+}
+.modalbg{
+  background-color: #000000;
+  color: purple;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

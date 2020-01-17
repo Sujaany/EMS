@@ -30,6 +30,7 @@ class RoleList extends Component {
 
   render() {
     return (
+      <div className="tablebg">
       <table className="table table-striped table-hover card-text">
         <thead>
           <tr>
@@ -68,6 +69,7 @@ class RoleList extends Component {
           ))}
         </tbody>
       </table>
+      </div>
     );
   }
 }

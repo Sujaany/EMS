@@ -41,7 +41,7 @@ class RoleModal extends Component {
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-        <Form>
+        <Form >
         <Form.Row>
           <Form.Group as={Col} controlId="exampleForm.ControlTextarea1">
             <Form.Label>Id : </Form.Label>

@@ -8,13 +8,13 @@ class Role extends Component {
   render() {
     return (
       <section>
-        <div class="card">
+        <div class="modalbg-card">
           <div class="d-flex justify-content-between card-header">
-            <h3 class="h6 text-uppercase mb-0">User Role</h3>
+            <h3 class="h6 text-uppercase mb-0" color="white">User Role</h3>
 
             <button
               type="submit"
-              class="btn btn-info btn"
+              class="btn btn-success btn"
               data-toggle="tooltip"
               data-placement="bottom"
               title="add role"
